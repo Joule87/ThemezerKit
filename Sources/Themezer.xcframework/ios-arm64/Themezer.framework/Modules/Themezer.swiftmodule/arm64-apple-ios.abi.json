@@ -1,0 +1,949 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Themeable",
+        "printedName": "Themeable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer9ThemeableP2idSSvp",
+            "mangledName": "$s8Themezer9ThemeableP2idSSvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer9ThemeableP2idSSvg",
+                "mangledName": "$s8Themezer9ThemeableP2idSSvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+                "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer9ThemeableP4nameSSvp",
+            "mangledName": "$s8Themezer9ThemeableP4nameSSvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer9ThemeableP4nameSSvg",
+                "mangledName": "$s8Themezer9ThemeableP4nameSSvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+                "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "labelAssets",
+            "printedName": "labelAssets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LabelAssets",
+                "printedName": "Themezer.LabelAssets",
+                "usr": "s:8Themezer11LabelAssetsP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer9ThemeableP11labelAssetsAA05LabelD0_pvp",
+            "mangledName": "$s8Themezer9ThemeableP11labelAssetsAA05LabelD0_pvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LabelAssets",
+                    "printedName": "Themezer.LabelAssets",
+                    "usr": "s:8Themezer11LabelAssetsP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer9ThemeableP11labelAssetsAA05LabelD0_pvg",
+                "mangledName": "$s8Themezer9ThemeableP11labelAssetsAA05LabelD0_pvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+                "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonAssets",
+            "printedName": "buttonAssets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonAssets",
+                "printedName": "Themezer.ButtonAssets",
+                "usr": "s:8Themezer12ButtonAssetsP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer9ThemeableP12buttonAssetsAA06ButtonD0_pvp",
+            "mangledName": "$s8Themezer9ThemeableP12buttonAssetsAA06ButtonD0_pvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ButtonAssets",
+                    "printedName": "Themezer.ButtonAssets",
+                    "usr": "s:8Themezer12ButtonAssetsP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer9ThemeableP12buttonAssetsAA06ButtonD0_pvg",
+                "mangledName": "$s8Themezer9ThemeableP12buttonAssetsAA06ButtonD0_pvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+                "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "segmentedControlAssets",
+            "printedName": "segmentedControlAssets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SegmentedControlAssets",
+                "printedName": "Themezer.SegmentedControlAssets",
+                "usr": "s:8Themezer22SegmentedControlAssetsP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer9ThemeableP22segmentedControlAssetsAA09SegmenteddE0_pvp",
+            "mangledName": "$s8Themezer9ThemeableP22segmentedControlAssetsAA09SegmenteddE0_pvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SegmentedControlAssets",
+                    "printedName": "Themezer.SegmentedControlAssets",
+                    "usr": "s:8Themezer22SegmentedControlAssetsP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer9ThemeableP22segmentedControlAssetsAA09SegmenteddE0_pvg",
+                "mangledName": "$s8Themezer9ThemeableP22segmentedControlAssetsAA09SegmenteddE0_pvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+                "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Themezer9ThemeablePxycfc",
+            "mangledName": "$s8Themezer9ThemeablePxycfc",
+            "moduleName": "Themezer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Themezer.Themeable>",
+            "sugared_genericSig": "<Self where Self : Themezer.Themeable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Themezer9ThemeableP",
+        "mangledName": "$s8Themezer9ThemeableP",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LabelAssets",
+        "printedName": "LabelAssets",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer11LabelAssetsP9textColorSo7UIColorCvp",
+            "mangledName": "$s8Themezer11LabelAssetsP9textColorSo7UIColorCvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer11LabelAssetsP9textColorSo7UIColorCvg",
+                "mangledName": "$s8Themezer11LabelAssetsP9textColorSo7UIColorCvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.LabelAssets>",
+                "sugared_genericSig": "<Self where Self : Themezer.LabelAssets>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Themezer11LabelAssetsP",
+        "mangledName": "$s8Themezer11LabelAssetsP",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ButtonAssets",
+        "printedName": "ButtonAssets",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer12ButtonAssetsP9textColorSo7UIColorCvp",
+            "mangledName": "$s8Themezer12ButtonAssetsP9textColorSo7UIColorCvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ButtonAssetsP9textColorSo7UIColorCvg",
+                "mangledName": "$s8Themezer12ButtonAssetsP9textColorSo7UIColorCvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.ButtonAssets>",
+                "sugared_genericSig": "<Self where Self : Themezer.ButtonAssets>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer12ButtonAssetsP15backgroundColorSo7UIColorCvp",
+            "mangledName": "$s8Themezer12ButtonAssetsP15backgroundColorSo7UIColorCvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ButtonAssetsP15backgroundColorSo7UIColorCvg",
+                "mangledName": "$s8Themezer12ButtonAssetsP15backgroundColorSo7UIColorCvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.ButtonAssets>",
+                "sugared_genericSig": "<Self where Self : Themezer.ButtonAssets>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Themezer12ButtonAssetsP",
+        "mangledName": "$s8Themezer12ButtonAssetsP",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SegmentedControlAssets",
+        "printedName": "SegmentedControlAssets",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selectedSegmentTintColor",
+            "printedName": "selectedSegmentTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer22SegmentedControlAssetsP24selectedSegmentTintColorSo7UIColorCvp",
+            "mangledName": "$s8Themezer22SegmentedControlAssetsP24selectedSegmentTintColorSo7UIColorCvp",
+            "moduleName": "Themezer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer22SegmentedControlAssetsP24selectedSegmentTintColorSo7UIColorCvg",
+                "mangledName": "$s8Themezer22SegmentedControlAssetsP24selectedSegmentTintColorSo7UIColorCvg",
+                "moduleName": "Themezer",
+                "genericSig": "<τ_0_0 where τ_0_0 : Themezer.SegmentedControlAssets>",
+                "sugared_genericSig": "<Self where Self : Themezer.SegmentedControlAssets>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Themezer22SegmentedControlAssetsP",
+        "mangledName": "$s8Themezer22SegmentedControlAssetsP",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeManager",
+        "printedName": "ThemeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeManager",
+                "printedName": "Themezer.ThemeManager",
+                "usr": "s:8Themezer12ThemeManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer12ThemeManagerC6sharedACvpZ",
+            "mangledName": "$s8Themezer12ThemeManagerC6sharedACvpZ",
+            "moduleName": "Themezer",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeManager",
+                    "printedName": "Themezer.ThemeManager",
+                    "usr": "s:8Themezer12ThemeManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ThemeManagerC6sharedACvgZ",
+                "mangledName": "$s8Themezer12ThemeManagerC6sharedACvgZ",
+                "moduleName": "Themezer",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeManager",
+                    "printedName": "Themezer.ThemeManager",
+                    "usr": "s:8Themezer12ThemeManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ThemeManagerC6sharedACvsZ",
+                "mangledName": "$s8Themezer12ThemeManagerC6sharedACvsZ",
+                "moduleName": "Themezer",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ThemeManagerC6sharedACvMZ",
+                "mangledName": "$s8Themezer12ThemeManagerC6sharedACvMZ",
+                "moduleName": "Themezer",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "themes",
+            "printedName": "themes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Themezer.Themeable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Themeable",
+                    "printedName": "Themezer.Themeable",
+                    "usr": "s:8Themezer9ThemeableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer12ThemeManagerC6themesSayAA9Themeable_pGvp",
+            "mangledName": "$s8Themezer12ThemeManagerC6themesSayAA9Themeable_pGvp",
+            "moduleName": "Themezer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Themezer.Themeable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Themeable",
+                        "printedName": "Themezer.Themeable",
+                        "usr": "s:8Themezer9ThemeableP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ThemeManagerC6themesSayAA9Themeable_pGvg",
+                "mangledName": "$s8Themezer12ThemeManagerC6themesSayAA9Themeable_pGvg",
+                "moduleName": "Themezer",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "theme",
+            "printedName": "theme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Themeable",
+                "printedName": "Themezer.Themeable",
+                "usr": "s:8Themezer9ThemeableP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Themezer12ThemeManagerC5themeAA9Themeable_pvp",
+            "mangledName": "$s8Themezer12ThemeManagerC5themeAA9Themeable_pvp",
+            "moduleName": "Themezer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Themeable",
+                    "printedName": "Themezer.Themeable",
+                    "usr": "s:8Themezer9ThemeableP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Themezer12ThemeManagerC5themeAA9Themeable_pvg",
+                "mangledName": "$s8Themezer12ThemeManagerC5themeAA9Themeable_pvg",
+                "moduleName": "Themezer",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(themeType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "Themezer.Themeable.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Themeable",
+                    "printedName": "Themezer.Themeable",
+                    "usr": "s:8Themezer9ThemeableP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Themezer12ThemeManagerC8register9themeTypeyAA9Themeable_pXp_tF",
+            "mangledName": "$s8Themezer12ThemeManagerC8register9themeTypeyAA9Themeable_pXp_tF",
+            "moduleName": "Themezer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Themezer12ThemeManagerC6configyyF",
+            "mangledName": "$s8Themezer12ThemeManagerC6configyyF",
+            "moduleName": "Themezer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "apply",
+            "printedName": "apply(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Themeable",
+                "printedName": "Themezer.Themeable",
+                "usr": "s:8Themezer9ThemeableP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Themezer12ThemeManagerC5applyyyAA9Themeable_pF",
+            "mangledName": "$s8Themezer12ThemeManagerC5applyyyAA9Themeable_pF",
+            "moduleName": "Themezer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8Themezer12ThemeManagerC",
+        "mangledName": "$s8Themezer12ThemeManagerC",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Themezer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 15,
+      "value": "\"APP_THEME_KEY\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 34,
+      "value": "\"Did not find themeId: \""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "Array",
+      "offset": 1458,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1538,
+      "length": 23,
+      "value": "\"Applied \""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Manager\/ThemeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Gray\/GrayTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 12,
+      "value": "\"Gray Theme\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Blue\/BlueTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 12,
+      "value": "\"Blue Theme\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Blue\/BlueTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 860,
+      "length": 12,
+      "value": "0.6187281013"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Blue\/BlueTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 881,
+      "length": 12,
+      "value": "0.8551047444"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Blue\/BlueTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 901,
+      "length": 11,
+      "value": "0.991561234"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Blue\/BlueTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 921,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Red\/RedTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 11,
+      "value": "\"Red Theme\""
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Red\/RedTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 848,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Red\/RedTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 858,
+      "length": 12,
+      "value": "0.7822037339"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Red\/RedTheme.swift",
+      "kind": "FloatLiteral",
+      "offset": 878,
+      "length": 12,
+      "value": "0.6820316911"
+    },
+    {
+      "filePath": "\/Users\/juliocolladoperez\/Documents\/development\/Themezer\/Themezer\/Core\/Themes\/Red\/RedTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 899,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module Themezer {
+  umbrella header "Themezer.h"
+  export *
+
+  module * { export * }
+}
+
+module Themezer.Swift {
+  header "Themezer-Swift.h"
+  requires objc
+}
