@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		I7YUA2t0gsA/Dx/CEbR2mymJpbU=
+		djx3BL/7ML7GlSI7zO4P9XLGmjM=
 		</data>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QvVVEzxmIUKFkwTczHo+sMNWsNE=
+		rj3xz86Oii0vuN9VcKvEwntG17A=
 		</data>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QvVVEzxmIUKFkwTczHo+sMNWsNE=
+		rj3xz86Oii0vuN9VcKvEwntG17A=
 		</data>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		59BdFuEc2/hEW3CXrDWPZzvIASc=
+		y56J9CL+Fj8WvmclHBA2SckbD4o=
 		</data>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		I7YUA2t0gsA/Dx/CEbR2mymJpbU=
+		djx3BL/7ML7GlSI7zO4P9XLGmjM=
 		</data>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dY/snIMhr3qnoF0Pq0WwdEStQKw=
+		yzl4CNRqr1gHfB0mGkCiD98OH/Y=
 		</data>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dY/snIMhr3qnoF0Pq0WwdEStQKw=
+		yzl4CNRqr1gHfB0mGkCiD98OH/Y=
 		</data>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yKucrZbvlf2nfsuisNSNAxX+U8g=
+		LFD7HP5/gc2YU10Ffuc/vdDYXZg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vU1taTGUvuQSRep1pF+7IO7n4mYc1N/ym6ddthEMrxk=
+			4S4aF+Csq4Ha09sT5kkDn9viJtREXrKZb6DDiYn41Y0=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVSdBJj1EmdB0lLr9gVxa3BVnwy5PXXOlgg6pqoq6gQ=
+			6yzGu6VyJrWd7d1nTv3AtB8IFf0bNMDfXZgPP05E2og=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVSdBJj1EmdB0lLr9gVxa3BVnwy5PXXOlgg6pqoq6gQ=
+			6yzGu6VyJrWd7d1nTv3AtB8IFf0bNMDfXZgPP05E2og=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKPwfJKmtBJDWKOLNjJzUeX7NWkWYg/fiwYQdQM4H3g=
+			jgXEBV/Tiji1g8DHp7+gzHsvfwZV0UIomtXCfyhpoWc=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vU1taTGUvuQSRep1pF+7IO7n4mYc1N/ym6ddthEMrxk=
+			4S4aF+Csq4Ha09sT5kkDn9viJtREXrKZb6DDiYn41Y0=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBXe0KtnkzBNQ7kiHUvcicjrgoE+ea5q8xLNeMOyqxM=
+			eyTjEWq6sMItT3P3HUeXaqhMUG6mqMFCX7cYgDCXJ7w=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBXe0KtnkzBNQ7kiHUvcicjrgoE+ea5q8xLNeMOyqxM=
+			eyTjEWq6sMItT3P3HUeXaqhMUG6mqMFCX7cYgDCXJ7w=
 			</data>
 		</dict>
 		<key>Modules/Themezer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYa4jYcaME/hDNO9gcCPRH5Qs2x3AlO/ZisUoEn/8AM=
+			axR/nZvaMtlNPxScFdnc2V2Gs7rrpJx3dqUwXySNLLY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

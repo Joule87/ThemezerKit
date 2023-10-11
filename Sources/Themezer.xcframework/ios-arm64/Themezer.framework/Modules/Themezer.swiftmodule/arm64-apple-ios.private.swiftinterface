@@ -17,6 +17,11 @@ public protocol Themeable {
   var segmentedControlAssets: any Themezer.SegmentedControlAssets { get }
   init()
 }
+extension Themezer.Themeable {
+  public var id: Swift.String {
+    get
+  }
+}
 public protocol LabelAssets {
   var textColor: UIKit.UIColor { get }
 }
@@ -39,4 +44,97 @@ public protocol SegmentedControlAssets {
   public func config()
   public func apply(_ theme: any Themezer.Themeable)
   @objc deinit
+}
+public struct GrayTheme : Themezer.Themeable {
+  public var name: Swift.String
+  public init()
+  public var labelAssets: any Themezer.LabelAssets {
+    get
+  }
+  public var buttonAssets: any Themezer.ButtonAssets {
+    get
+  }
+  public var segmentedControlAssets: any Themezer.SegmentedControlAssets {
+    get
+  }
+}
+public struct GrayLabelAssets : Themezer.LabelAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+}
+public struct GrayButtonAssets : Themezer.ButtonAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+  public var backgroundColor: UIKit.UIColor {
+    get
+  }
+}
+public struct GraySegmentedControlAssets : Themezer.SegmentedControlAssets {
+  public var selectedSegmentTintColor: UIKit.UIColor {
+    get
+  }
+}
+public struct BlueTheme : Themezer.Themeable {
+  public var name: Swift.String
+  public init()
+  public var labelAssets: any Themezer.LabelAssets {
+    get
+  }
+  public var buttonAssets: any Themezer.ButtonAssets {
+    get
+  }
+  public var segmentedControlAssets: any Themezer.SegmentedControlAssets {
+    get
+  }
+}
+public struct BlueLabelAssets : Themezer.LabelAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+}
+public struct BlueButtonAssets : Themezer.ButtonAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+  public var backgroundColor: UIKit.UIColor {
+    get
+  }
+}
+public struct BlueSegmentedControlAssets : Themezer.SegmentedControlAssets {
+  public var selectedSegmentTintColor: UIKit.UIColor {
+    get
+  }
+}
+public struct RedTheme : Themezer.Themeable {
+  public var name: Swift.String
+  public init()
+  public var labelAssets: any Themezer.LabelAssets {
+    get
+  }
+  public var buttonAssets: any Themezer.ButtonAssets {
+    get
+  }
+  public var segmentedControlAssets: any Themezer.SegmentedControlAssets {
+    get
+  }
+}
+public struct RedLabelAssets : Themezer.LabelAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+}
+public struct RedButtonAssets : Themezer.ButtonAssets {
+  public var textColor: UIKit.UIColor {
+    get
+  }
+  public var backgroundColor: UIKit.UIColor {
+    get
+  }
+}
+public struct RedSegmentedControlAssets : Themezer.SegmentedControlAssets {
+  public var selectedSegmentTintColor: UIKit.UIColor {
+    get
+  }
 }
